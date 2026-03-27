@@ -1,4 +1,4 @@
-public class Bus extends Vehicle implements Servise {
+public class Bus extends Vehicle implements Servicable {
     private int passengerCapacity;
 
     public Bus(String model, int year, double basePrice, int passengerCapacity) {

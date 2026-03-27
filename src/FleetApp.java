@@ -68,8 +68,8 @@ public class FleetApp {
 
     void performService() {
         for (Vehicle v : vehicles) {
-            if (v instanceof Servise) {
-                ((Servise) v).performService();
+            if (v instanceof Servicable) {
+                ((Servicable) v).performService();
             }
         }
     }
