@@ -6,6 +6,6 @@ public class task4 {
         return baseSumRecursive(b, n - 1) + (int)Math.pow(b, n);
     }
     public static void main(String[] args){
-        System.out.println(baseSumRecursive(4, 3));
+        System.out.println(baseSumRecursive(3, 3));
     }
 }

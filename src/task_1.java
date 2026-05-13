@@ -6,6 +6,6 @@ public class task_1 {
     }
 
     public static void main(String[] args){
-        System.out.println(squareNumbersSumRecursive(5));
+        System.out.println(squareNumbersSumRecursive(4));
     }
 }
